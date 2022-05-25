@@ -1,0 +1,128 @@
+@import "fonts.css";
+/*BASIC CONF*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+button {
+    border: none;
+    background: none;
+}
+/*BASIC CONF*/
+/*UNIQUE CONF*/
+.row {
+    display: flex;
+}
+.col-6 {
+    width: 50%;
+}
+.col-4{
+    width: 33.33333%;
+}
+.col-3 {
+    width: 25%;
+}
+.d-flex {
+    display: flex;
+}
+.align-center {
+    align-items: center;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.container {
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.section_title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+.section_desc {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+.rounded-btn {
+    padding: 10px 36px;
+    border-radius: 37px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+}
+/*UNIQUE CONF*/
+/*SECTION HEADER*/
+.header {
+    position: absolute;
+    width: 100%;
+    top: 36px;
+}
+.header_logo {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    margin-right: 117px;
+}
+.header_link {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin-right: 21px;
+}
+/*SECTION HEADER*/
+/*SECTION HERO*/
+.hero {
+    height: 100vh;
+    padding-top: 184px;
+    background: url("../images/hero.png") no-repeat center/cover;
+}
+.hero_title {
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 80px;
+    width: 509px;
+}
+.hero_desc {
+    font-size: 20px;
+    line-height: 30px;
+    width: 376px;
+    text-align: left;
+    margin: 35px 0;
+}
+.hero_filled {
+    border: 1px solid #FFA62B;
+    color: #FFFFFF;
+    background: #FFA62B;
+    margin-right: 10px;
+}
+.hero_hollow {
+    border: 2px solid #00A0C1;
+    color: #00A0C1;
+}
+
+/*SECTION HERO*/
