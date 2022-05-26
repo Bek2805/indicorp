@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 body {
+    background: #FAFAFA;
     font-family: "Montserrat", sans-serif;
 }
 a {
@@ -74,6 +75,7 @@ button {
 /*SECTION HEADER*/
 .header {
     position: absolute;
+    z-index: 10;
     width: 100%;
     top: 36px;
 }
@@ -97,6 +99,7 @@ button {
 /*SECTION HEADER*/
 /*SECTION HERO*/
 .hero {
+    position: relative;
     height: 100vh;
     padding-top: 184px;
     background: url("../images/hero.png") no-repeat center/cover;
@@ -124,5 +127,125 @@ button {
     border: 2px solid #00A0C1;
     color: #00A0C1;
 }
-
+.hero .container {
+    position: relative;
+    height: 100%;
+}
+.hero .row {
+    position: absolute;
+    width: 100%;
+    bottom: -19px;
+    gap: 30px;
+}
+.hero_card {
+    padding: 35px 0 35px 40px;
+    height: 210px;
+    box-shadow: 0 13px 19px rgba(0, 0, 0, 0.07);
+    background: #FFFFFF;
+    transition: 0.3s;
+}
+.hero_sm-title {
+    margin: 10px 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    transition: 0.3s;
+}
+.hero_sm-desc {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    transition: 0.3s;
+}
+.hero_card svg {
+    transition: 0.3s;
+    fill: #00A0C1;
+}
+.hero_card:hover {
+    background: #00A0C1;
+}
+.hero_card:hover svg {
+    fill: #fff;
+}
+.hero_card:hover .hero_sm-title,
+.hero_card:hover .hero_sm-desc {
+    color: #ffffff;
+}
 /*SECTION HERO*/
+/*SECTION REASON*/
+.reason {
+    padding: 211px 0 80px;
+}
+.reason_title {
+    text-align: center;
+    text-transform: uppercase;
+}
+.reason_desc {
+    width: 511px;
+    margin: 10px auto 50px;
+}
+.reason .row {
+    gap: 40px;
+}
+.reason_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+    height: 209px;
+    background: #FFFFFF;
+}
+.reason_number {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin: 10px;
+}
+.reason_md-desc {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #737373;
+}
+/*SECTION REASON*/
+/*SECTION PRACTICE*/
+.practice {
+    padding: 125px 0 81px;
+}
+.practice_title {
+    text-align: center;
+}
+.practice_desc {
+    margin: 10px 0 45px;
+}
+.practice .row {
+    gap: 40px;
+}
+.practice_card {
+    background: #FFFFFF;
+}
+.practice_content {
+    padding: 30px 29px;
+    height: 203px;
+}
+.practice_sm-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+.practice_card .section_desc {
+    text-align: left;
+    margin-top: 15px;
+}
+
+
+/*SECTION PRACTISE*/
