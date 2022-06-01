@@ -162,7 +162,7 @@ input {
     padding: 35px 0 35px 40px;
     height: 210px;
     box-shadow: 0 13px 19px rgba(0, 0, 0, 0.07);
-    background: #FFFFFF;
+    background: #ffffff;
     transition: 0.3s;
 }
 .hero_sm-title {
@@ -219,7 +219,9 @@ input {
     padding: 30px 0;
     height: 209px;
     background: #FFFFFF;
+    transition: 0.3s;
 }
+
 .reason_number {
     font-weight: 700;
     font-size: 40px;
@@ -234,6 +236,20 @@ input {
     line-height: 24px;
     letter-spacing: 0.1px;
     color: #737373;
+}
+.reason_card:hover {
+    background: #00A0C1;
+}
+.reason_card svg {
+    transition: 0.3s;
+    fill: #00A0C1;
+}
+.reason_card:hover svg {
+    fill: #fff;
+}
+.reason_card:hover .reason_number,
+.reason_card:hover .reason_md-desc {
+    color: #ffffff;
 }
 /*SECTION REASON*/
 /*SECTION PRACTICE*/
@@ -415,7 +431,6 @@ input {
     background: #FFA62B;
     border: 1px solid #E6E6E6;
     border-radius: 0 5px 5px 0;
-
 }
 /*SECTION CLIENTS_TOP*/
 /*SECTION CONTACTS*/
@@ -433,28 +448,31 @@ input {
     width: 100%;
     padding: 50px 0;
     background: #ffffff;
+    transition: 0.3s;
 }
 .contacts_light-card svg {
     margin-bottom: 15px;
+    fill: #00A0C1;
 }
 .contacts_cards {
     width: 984px;
     margin: 0 auto;
+    gap: 15px;
 }
-.contacts_dark-card {
-    padding: 80px 0;
+.contacts_light-card:hover {
     background: #252B42;
+    height: 333px;
 }
-.contacts_dark-card .contacts_email,
-.contacts_dark-card .contacts_support,
-.contacts_dark-card .contacts_btn {
-    color: #FFFFFF;
+.contacts_light-card:hover .contacts_email,
+.contacts_light-card:hover .contacts_support,
+.contacts_light-card:hover .contacts_btn {
+    color: #ffffff;
 }
-.contacts_dark-card .contacts_btn {
+.contacts_light-card:hover .contacts_btn {
     border: 1px solid #ffffff;
 }
-.contacts_dark-card svg {
-    margin-bottom: 15px;
+.contacts_light-card:hover svg {
+    fill: #ffffff;
 }
 .contacts_email {
     font-weight: 600;
@@ -479,8 +497,13 @@ input {
     color: #FFA62B;
     border: 1px solid #FFA62B;
     border-radius: 5px;
+    transition: 0.3s;
     width: 160px;
     height: 44px;
+}
+.contacts_btn:hover {
+    width: 170px;
+    height: 50px;
 }
 /*SECTION CONTACTS*/
 /*SECTION FOOTER*/
@@ -508,8 +531,13 @@ input {
     font-size: 14px;
     line-height: 28px;
     letter-spacing: 0.2px;
+    transition: 0.3s;
     color: #FFFFFF;
 
+}
+.footer_btn:hover {
+    width: 170px;
+    height: 65px;
 }
 .footer_grid {
     display: grid;
@@ -547,5 +575,32 @@ input {
 }
 .footer_link svg {
     margin-right: 10px;
+}
+.footer_bottom {
+    padding: 25px 0;
+}
+.footer_info {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+.footer_icon {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 24px;
+}
+.footer_icon .fa-facebook-square {
+    color: #335BF5;
+}
+.footer_icon .fa-instagram {
+    color: #E61F5A;
+}
+.footer_icon .fa-twitter {
+    color: #21A6DF;
+}
+.footer_icon .fa-youtube {
+    color: #E42F08;
 }
 /*SECTION FOOTER*/
