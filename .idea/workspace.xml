@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cac11de3-04c1-4b41-b904-ef0526336d40" name="Changes" comment="">
+    <list default="true" id="01c07e88-730e-4ea3-b105-07de7b29f4a8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/style/media.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
@@ -23,37 +24,32 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="29UI4vFLPMz4K0mV34llSBw17YF" />
+  <component name="ProjectId" id="2A7Lw9UWlSSeeoC5jMl1zKjlJrz" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cac11de3-04c1-4b41-b904-ef0526336d40" name="Changes" comment="" />
-      <created>1653161049928</created>
+      <changelist id="01c07e88-730e-4ea3-b105-07de7b29f4a8" name="Changes" comment="" />
+      <created>1654355912705</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1653161049928</updated>
-      <workItem from="1653161051607" duration="17399000" />
-      <workItem from="1653486510426" duration="4326000" />
-      <workItem from="1653492242791" duration="778000" />
-      <workItem from="1653496879693" duration="98000" />
-      <workItem from="1653496989436" duration="58083000" />
-      <workItem from="1654006924386" duration="33455000" />
+      <updated>1654355912705</updated>
+      <workItem from="1654355914588" duration="37063000" />
     </task>
     <servers />
   </component>

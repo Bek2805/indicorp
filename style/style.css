@@ -116,6 +116,17 @@ input {
     letter-spacing: 0.2px;
     color: #737373;
     margin-right: 21px;
+
+}
+.header_burger {
+    display: none;
+}
+.burger_link {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 0.2px;
+    color: #737373;
 }
 /*SECTION HEADER*/
 /*SECTION HERO*/
