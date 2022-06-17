@@ -326,11 +326,3 @@
         margin-left: 0;
     }
 }
-@media (max-width: 414px) {
-    .container {
-        max-width: 366px;
-    }
-    .container .header_logo {
-        margin-right: 0;
-    }
-}

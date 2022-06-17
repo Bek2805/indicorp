@@ -166,7 +166,7 @@ input {
 .hero .row {
     position: absolute;
     width: 100%;
-    bottom: -19px;
+    bottom: -80px;
     gap: 30px;
 }
 .hero_card {
