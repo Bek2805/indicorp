@@ -1,0 +1,328 @@
+@media (max-width: 992px) {
+    .container {
+        max-width: 930px;
+    }
+    .hero_hollow {
+        color: #ffffff;
+        background: #00A0C1;
+    }
+    .hero_card {
+        padding: 22px 0 23px 25px;
+    }
+    .hero_sm-title {
+        font-size: 22px;
+    }
+    .reason {
+        padding: 163px 55px 55px
+    }
+    .practice .row {
+        flex-wrap: wrap;
+        gap: 0;
+        padding: 0 -20px;
+    }
+    .practice .col-3 {
+        width: 50%;
+        padding: 0 20px 20px;
+    }
+    .practice_img {
+        width: 100%;
+    }
+    .practice_img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .practice_content {
+        height: auto;
+    }
+    .about_video {
+        width: 519px;
+        height: 420px;
+    }
+    .clients_top svg {
+        width: 130px;
+    }
+    .clients_form {
+        width: 906px;
+    }
+    .contacts_cards {
+        width: 940px;
+    }
+    .footer_middle {
+        padding: 31px 0 52px;
+    }
+}
+@media (max-width: 821px) {
+    .container {
+        max-width: 765px;
+    }
+    .section_desc {
+        font-size: 15px;
+    }
+    .hero .row {
+        flex-wrap: wrap;
+        bottom: -75px;
+        row-gap: 30px;
+    }
+    .hero .col-4 {
+        width: 100%;
+    }
+    .hero_card {
+        padding: 39px 0 23px 48px;
+    }
+    .hero_sm-title {
+        font-size: 30px;
+    }
+    .hero_sm-desc {
+        font-size: 20px;
+    }
+    .hero_sm-desc br {
+        display: none;
+    }
+    .reason .row {
+        flex-wrap: wrap;
+    }
+    .reason .col-3 {
+        width: 47%;
+    }
+    .about_flex {
+        flex-direction: column;
+    }
+    .about_video {
+        width: 100%;
+        height: 475px;
+        margin-bottom: 30px;
+    }
+    .about_content {
+        width: 100%;
+    }
+    .about_content .d-flex {
+        justify-content: flex-start;
+    }
+    .about_sm-title {
+        font-size: 24px;
+    }
+    .about_sm-desc {
+        font-size: 19px;
+    }
+    .clients_top svg {
+        width: 99px;
+    }
+    .clients_form {
+        width: 760px;
+    }
+    .clients_title {
+        font-size: 20px;
+    }
+    .clients_inp {
+        width: 285px;
+    }
+    .contacts_cards {
+        width: 785px;
+    }
+    .footer_middle {
+        height: auto;
+    }
+    .footer_grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-row-gap: 41px;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        max-width: 690px;
+    }
+    .section_desc {
+        font-size: 17px;
+    }
+    .hero {
+        height: 120vh;
+        background: url(../images/hero.png) no-repeat left bottom/cover;
+    }
+    .hero .row {
+        bottom: -66px;
+        width: 97%;
+    }
+    .reason .row {
+        gap: 38px;
+    }
+    .hero_sm-title {
+        font-size: 27px;
+    }
+    .hero_sm-desc {
+        font-size: 18px;
+    }
+    .clients_top svg {
+        width: 93px;
+    }
+    .clients_form {
+    width: 715px;
+    }
+    .clients_title {
+    font-size: 18px;
+    }
+    .clients_inp {
+    width: 268px;
+        height: 52px;
+    }
+    .clients_subscribe {
+        height: 52px;
+    }
+    .contacts_cards {
+        width: 725px;
+    }
+    .contacts_email {
+        font-size: 13px;
+    }
+    .footer_title {
+        font-size: 21px;
+    }
+}
+@media (max-width: 540px) {
+    .container {
+        max-width: 470px;
+    }
+    .header_logo {
+        margin-right: 0;
+    }
+    .header_nav {
+        display: none;
+    }
+    .header .container {
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .header_burger {
+        display: inline-block;
+    }
+    .header_burger svg {
+        margin-left: 32px;
+    }
+    .burger_link {
+        display: block;
+        margin-bottom: 30px;
+    }
+    .burger_info {
+        padding-top: 70px;
+    }
+    .hero  {
+        height: 190vh;
+    }
+    .hero_card {
+        height: 190px;
+        padding: 23px 0 0 29px;
+    }
+    .hero_title {
+        padding-top: 267px;
+        font-size: 40px;
+        line-height: 70px;
+    }
+    .hero_sm-title {
+        font-size: 26px;
+    }
+    .hero_sm-desc {
+        font-size: 14px;
+    }
+    .hero_desc {
+        margin: 17px 0;
+    }
+    .reason .section_title {
+        font-size: 33px;
+    }
+    .reason .section_desc {
+        font-size: 14px;
+        width: 450px;
+    }
+    .reason .col-3 {
+        width: 45%;
+    }
+    .reason_number {
+        font-size: 30px;
+    }
+    .reason_md-desc {
+        font-size: 15px;
+    }
+    .practice {
+        padding: 60px 0 81px;
+    }
+    .practice .section_title {
+        font-size: 35px;
+    }
+    .practice .section_desc {
+        font-size: 13px;
+    }
+    .practice_sm-title {
+        font-size: 15px;
+    }
+    .about {
+        padding: 70px;
+    }
+    .section_title {
+        width: 400px;
+        font-size: 28px;
+        line-height: 44px;
+    }
+    .about .section_desc {
+        width: 415px;
+        font-size: 15px;
+        margin: 15px auto 45px;
+    }
+    .about_video {
+        height: 290px;
+    }
+    .about_sm-title {
+        font-size: 18px;
+    }
+    .about_sm-desc {
+        font-size: 18px;
+    }
+    .clients_grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .clients_inp {
+        width: 200px;
+        height: 45px;
+    }
+    .clients_subscribe {
+        height: 45px;
+        padding: 0 22px;
+    }
+    .clients_form {
+        flex-wrap: wrap;
+        width: 510px;
+    }
+    .contacts_cards {
+        width: 290px;
+    }
+    .contacts .section_desc {
+        font-size: 14px;
+    }
+    .contacts_title {
+        padding-left: 140px;
+    }
+    .grid_col-4 {
+        grid-template-columns: 1fr;
+    }
+    .footer_top, .footer_top .container {
+        height: 165px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer_grid {
+        grid-template-columns: 1fr;
+    }
+    .footer_info {
+        width: 235px;
+        margin-bottom: 25px;
+    }
+    .footer_bottom .container {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    .footer_icon {
+        display: inline-block;
+        margin-right: 20px;
+        margin-left: 0;
+    }
+}
